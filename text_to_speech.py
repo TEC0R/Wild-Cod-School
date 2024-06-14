@@ -4,7 +4,7 @@ import base64
 
 def text_to_speech(text,model):
     try:
-        api = "81c9eacfa6bfd05a2b77bdf65e43ff293f462d60"
+        api = st.secrets["deepgram_api"]
         filename = "reponse_IA.wav"
         SPEAK_OPTIONS = {"text": text}
         deepgram = DeepgramClient(api_key=api)
