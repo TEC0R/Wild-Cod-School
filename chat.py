@@ -12,7 +12,7 @@ def chat():
     st.subheader(" ")
 
     client = Groq(
-        api_key="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",
+        api_key= st.secrets["groq_api_key"],
     )
 
     machine_prompt = {

@@ -7,7 +7,7 @@ import re
 
 
 def model(prompt_machine):
-    model = ChatGroq(temperature=1, groq_api_key="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", model_name="llama3-70b-8192")
+    model = ChatGroq(temperature=1, groq_api_key= st.secrets["groq_api_key"], model_name="llama3-70b-8192")
 
     prompt = prompt_machine
 
