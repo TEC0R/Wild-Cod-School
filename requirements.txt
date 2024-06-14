@@ -1,6 +1,7 @@
 groq==0.8.0
 langchain-core==0.2.5
 langchain-groq==0.1.5
+langchain-community==0.2.4
 langchain==0.2.3
 pydub==0.25.1
 deepgram-sdk==3.3.1
